@@ -35,6 +35,7 @@ public class Utilidades {
         }
         return  str;
     }
+
     public void guardarPreferences(Context context,String objeto,String clave){
         SharedPreferences preferences;
         final String PREFS_NAME="SHARED_FILE";
